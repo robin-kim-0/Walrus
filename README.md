@@ -130,4 +130,4 @@ bdwalrus_aws AVOptions:
 
 The Walrus AMI is a GPU-based AMI that performs real-time video quality enhancement for low-resolution videos, including upscaling and noise reduction. This document describes one representative integration use case using AWS Elemental MediaConvert.
 
-### [Use case : S3 → Bluewhale → MediaConvert](./use-cases/vod.md)
+### [Use case : S3 → Walrus → MediaConvert](./use-cases/vod.md)
