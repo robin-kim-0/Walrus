@@ -1,4 +1,4 @@
-# Use case B : S3 → Walrus → MediaConvert
+# Use case B : S3 → Walrus AMI → MediaConvert
 
 This use case describes the complete process of upscaling low-resolution videos uploaded to AWS S3 using the Walrus and then packaging them into HLS/DASH formats via AWS Elemental MediaConvert for distribution as Video on Demand(VOD).
 
