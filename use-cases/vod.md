@@ -1,6 +1,6 @@
-# Use case B : S3 → Walrus AMI → MediaConvert
+# Use case B : S3 → Walrus → MediaConvert
 
-This use case describes the complete process of upscaling low-resolution videos uploaded to AWS S3 using the Walrus and then packaging them into HLS/DASH formats via AWS Elemental MediaConvert for distribution as Video on Demand(VOD).
+This use case describes the complete process of upscaling low-resolution videos uploaded to AWS S3 using Walrus, and then transcoding them into HLS/DASH outputs via AWS Elemental MediaConvert for Video on Demand (VOD) distribution.
 
 ## Architecture
 
@@ -10,7 +10,7 @@ This use case describes the complete process of upscaling low-resolution videos 
 
 ## Prerequisites
 
-Before you can use AWS Elemental MediaPackage and AWS S3, you need an AWS account and the appropriate permissions to access, view, and edit. For detailed information, see [Allowing AWS Elemental MediaPackage to access other AWS services](https://docs.aws.amazon.com/ko_kr/mediapackage/latest/ug/setting-up-create-trust-rel.html).
+Before you can use AWS Elemental MediaConvert and AWS S3, you need an AWS account and the appropriate permissions to access, view, and edit. For detailed information, see [Getting started with MediaConvert](https://docs.aws.amazon.com/ko_kr/mediaconvert/latest/ug/getting-started.html).
 
 ## Workflow
 
